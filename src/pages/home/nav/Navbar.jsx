@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Navbar.module.css'; 
-import LanguageSelect from '../../../ui/LanguageSelect/LanguageSelect';
+import LanguageSelect from '../../../ui/language-select/LanguageSelect';
 import ButtonCard from '../../../ui/button-card/ButtonCard';
 
 
