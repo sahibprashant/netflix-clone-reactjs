@@ -1,0 +1,29 @@
+.parent{
+    position: relative;
+}
+
+.selectContainer .select {
+    font-family: 'regular';
+    font-size: 0.85rem;
+    color: white;
+    background: hsl(var(--Gray), 0.7);
+    border-radius: 0.4rem;
+    padding: 0.375rem 2.25rem;
+    /* hiding default arrow-down */
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+.selectContainer svg[data-name="Globe"] {
+    position: absolute; 
+    top: 0;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.selectContainer svg[data-name="CaretDown"] {
+    position: absolute;
+    right: 0;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+}

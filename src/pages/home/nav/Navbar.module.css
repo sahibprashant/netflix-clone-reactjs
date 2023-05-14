@@ -1,0 +1,18 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.navIcon svg{
+    fill: hsl(var(--Red));
+    width: 150px;
+}
+
+.navItems{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

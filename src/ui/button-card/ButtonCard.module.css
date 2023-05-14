@@ -1,0 +1,16 @@
+.buttonCard {
+    color: white;
+    background-color: hsl(var(--Red));
+    border-radius: 0.3rem;
+    font-family: 'medium';
+    font-size: .9rem;
+    padding: .45rem 1rem;
+    transition: background-color 0.2s ease-in-out;
+    border: none;
+    margin-left: 0.8rem;
+}
+
+
+.buttonCard:hover {
+    background-color: hsl(357, 92%, 40%);
+}
