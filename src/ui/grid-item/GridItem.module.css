@@ -1,0 +1,38 @@
+.gridItemContainer {
+    background: radial-gradient(99.93% 134.44% at 17.93% 0%,
+            #09143c 0%,
+            #101338 57.21%,
+            #400e20 99.57%);
+    color: white;
+    padding: 1.4rem 1rem 2rem 1rem;
+    border-radius: 8px;
+}
+
+.gridImg {
+    display: flex;
+    justify-content: center;
+}
+
+.gridImg img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.gridContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridTitle {
+    text-align: center;
+    font-family: 'medium';
+    font-size: 1.5rem;
+}
+
+.gridDesc {
+    text-align: center;
+    font-family: 'regular';
+    font-size: .85rem;
+}

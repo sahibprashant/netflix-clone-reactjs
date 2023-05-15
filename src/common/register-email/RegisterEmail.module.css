@@ -1,0 +1,21 @@
+.container {}
+
+.descText {
+    padding-top: 0px;
+    margin-top: 0px;
+    font-size: 1.125rem;
+}
+
+.inputContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 55%;
+}
+
+.getStarted {
+    font-size: 1.5rem;
+    padding: .75rem 1.5rem;
+}
