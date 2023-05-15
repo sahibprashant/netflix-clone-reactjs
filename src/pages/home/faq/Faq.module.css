@@ -1,0 +1,14 @@
+.faqContainer{
+    background-color: #00091F;
+    padding: 6rem 9.5rem;
+}
+
+.heading{
+    font-family: 'bold';
+    font-size: 2.5rem;
+}
+.register{
+    display: flex;
+    flex: 1;
+    padding-block: 1.5rem;
+}

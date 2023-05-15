@@ -1,10 +1,14 @@
-import React from 'react'
-import styles from './Navbar.module.css'; 
+import React, { useState } from 'react'
+import styles from './Navbar.module.css';
 import LanguageSelect from '../../../ui/language-select/LanguageSelect';
 import ButtonCard from '../../../ui/button-card/ButtonCard';
+import { useNavigate } from 'react-router-dom';
 
 
-const Navbar = () => {
+const Navbar = (props) => {
+    const navigate = useNavigate();
+    const [menuVisibility, setMenuVisibility] = useState(props.showMenu == undefined ? true : props.showMenu)
+
     return (
         <div className={styles.navbar}>
             <div className={styles.navIcon}>
@@ -22,12 +26,16 @@ const Navbar = () => {
                     </g>
                 </svg>
             </div>
-            <div className={styles.navItems}>
-                <LanguageSelect />
-                <ButtonCard >
-                    Sign In 
-                </ButtonCard>
-            </div>
+            { menuVisibility && 
+                <div className={styles.navItems}>
+                    <LanguageSelect />
+                    <ButtonCard handleClick={() => {
+                        navigate('/signin');
+                    }}>
+                        Sign In
+                    </ButtonCard>
+                </div>
+            }
         </div>
     )
 }

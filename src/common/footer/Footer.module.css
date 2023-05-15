@@ -1,0 +1,33 @@
+.footerContainer{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #00091F;
+    padding: 2rem 9.5rem 3rem;
+    color: hsl(0, 0%, 100%, 0.7);
+    font-size: .9rem;
+}
+
+a{
+    color: hsl(0, 0%, 100%, 0.7);
+    cursor: pointer;
+    font-size: .85rem;
+    &:hover{
+        color: hsla(0, 0%, 100%, 0.80);
+    }
+}
+
+.footerItems{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: .8rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-decoration: underline;
+}
+
+.langSelect{
+    width: fit-content;
+    margin-block: 3rem;
+}
+

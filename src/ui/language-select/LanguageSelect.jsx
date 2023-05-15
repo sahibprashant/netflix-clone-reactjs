@@ -2,9 +2,9 @@ import React from 'react'
 import styles from './LanguageSelect.module.css'
 
 
-const LanguageSelect = () => {
+const LanguageSelect = (props) => {
   return (
-    <div className={styles.parent}>
+    <div className={`${styles.parent} ${props.className}`}>
       <div className={styles.selectContainer}>
         <svg
           width="16"

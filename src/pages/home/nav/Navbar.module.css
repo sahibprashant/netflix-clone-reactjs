@@ -8,6 +8,7 @@
 .navIcon svg{
     fill: hsl(var(--Red));
     width: 150px;
+    cursor: pointer;
 }
 
 .navItems{
